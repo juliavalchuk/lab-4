@@ -1,6 +1,6 @@
 
 public class NewCounter {
-    volatile long count;
+    private volatile long count;
 
     public NewCounter(long i)
     {

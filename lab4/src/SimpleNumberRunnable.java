@@ -1,8 +1,8 @@
 
 public class SimpleNumberRunnable implements Runnable {
-    final NewCounter counter;
-    final int threadId;
-    final long NUMB = 10;
+    private final NewCounter counter;
+    private final int threadId;
+    private final long NUMB = 10;
 
     public SimpleNumberRunnable(int threadId, NewCounter counter) {
         this.counter = counter;

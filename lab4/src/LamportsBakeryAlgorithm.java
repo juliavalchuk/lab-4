@@ -2,9 +2,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class LamportsBakeryAlgorithm {
-    AtomicIntegerArray flag;
-    AtomicIntegerArray label;
-    final int N;
+    private AtomicIntegerArray flag;
+    private AtomicIntegerArray label;
+    private final int N;
 
     public LamportsBakeryAlgorithm(int n)
     {
